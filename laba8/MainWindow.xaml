@@ -1,0 +1,56 @@
+﻿<Window x:Class="laba8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="База даних спортсменів" Height="500" Width="1200">
+    <Grid>
+        <ListView Name="athletesListView" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,10" Width="1000">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Код" DisplayMemberBinding="{Binding Code}" Width="60"/>
+                    <GridViewColumn Header="Прізвище" DisplayMemberBinding="{Binding LastName}" Width="100"/>
+                    <GridViewColumn Header="Імя" DisplayMemberBinding="{Binding FirstName}" Width="100"/>
+                    <GridViewColumn Header="По-батькові" DisplayMemberBinding="{Binding MiddleName}" Width="120"/>
+                    <GridViewColumn Header="Рік народження" DisplayMemberBinding="{Binding BirthYear}" Width="100"/>
+                    <GridViewColumn Header="Стать" DisplayMemberBinding="{Binding Gender}" Width="80"/>
+                    <GridViewColumn Header="Вид спорту" DisplayMemberBinding="{Binding SportType}" Width="100"/>
+                    <GridViewColumn Header="Досягнення" DisplayMemberBinding="{Binding Achievements}" Width="210"/>
+                    <GridViewColumn Header="Призи" DisplayMemberBinding="{Binding MedalType}" Width="120"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="320,10,10,0">
+            <TextBlock Text="Код:" />
+            <TextBox Name="codeTextBox" Width="150" />
+
+            <TextBlock Text="Прізвище:" />
+            <TextBox Name="lastNameTextBox" Width="150" />
+
+            <TextBlock Text="Імя:" />
+            <TextBox Name="firstNameTextBox" Width="150" />
+
+            <TextBlock Text="По-батькові:" />
+            <TextBox Name="middleNameTextBox" Width="150" />
+
+            <TextBlock Text="Рік народження:" />
+            <TextBox Name="birthYearTextBox" Width="150" />
+
+            <TextBlock Text="Стать:" />
+            <TextBox Name="genderTextBox" Width="150" />
+
+            <TextBlock Text="Вид спорту:" />
+            <TextBox Name="sportTypeTextBox" Width="150" />
+
+            <TextBlock Text="Досягнення:" />
+            <TextBox Name="achievementsTextBox" Width="150" />
+
+            <TextBlock Text="Призи:" />
+            <TextBox Name="medalTypeTextBox" Width="150" />
+
+            <Button Content="Додати" Click="AddButton_Click" Width="80" Margin="-0,10,0,0" />
+            <Button Content="Редагувати" Click="UpdateButton_Click" Width="80" Margin="0,5,0,0" />
+            <Button Content="Видалити" Click="DeleteButton_Click" Width="80" Margin="0,5,0,0" />
+            <Button Content="Очистити" Click="ClearButton_Click" Width="80" Margin="0,5,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>

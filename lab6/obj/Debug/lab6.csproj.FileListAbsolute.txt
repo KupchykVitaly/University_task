@@ -1,0 +1,15 @@
+C:\Users\kupch\source\repos\lab6\bin\Debug\lab6.exe.config
+C:\Users\kupch\source\repos\lab6\bin\Debug\lab6.exe
+C:\Users\kupch\source\repos\lab6\bin\Debug\lab6.pdb
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.csproj.AssemblyReference.cache
+C:\Users\kupch\source\repos\lab6\obj\Debug\MainWindow.g.cs
+C:\Users\kupch\source\repos\lab6\obj\Debug\App.g.cs
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6_MarkupCompile.cache
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6_MarkupCompile.lref
+C:\Users\kupch\source\repos\lab6\obj\Debug\MainWindow.baml
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.g.resources
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.Properties.Resources.resources
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.csproj.GenerateResource.cache
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.csproj.CoreCompileInputs.cache
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.exe
+C:\Users\kupch\source\repos\lab6\obj\Debug\lab6.pdb
